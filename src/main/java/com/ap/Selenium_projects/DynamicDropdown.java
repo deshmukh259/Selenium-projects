@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class DynamicDropdown {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "/Users/purushottamdeshmukh/clone2/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/purushottamdeshmukh/clone2/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
